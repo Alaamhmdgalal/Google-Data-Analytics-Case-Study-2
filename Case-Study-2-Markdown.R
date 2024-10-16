@@ -120,13 +120,13 @@ What does this tell us about how this sample of people's activities?
 What's the relationship between steps taken in a day and sedentary minutes? How could this help inform the customer segments that we can market to? E.g. position this more as a way to get started in walking more? Or to measure steps that you're already taking?
 
 ```{r}
-ggplot(data=daily_activity_df, aes(x=TotalSteps, y=SedentaryMinutes)) + geom_point(position=position_jitter()) + stat_smooth(method="lm") + labs(title="Total Steps vs Sedentary Minutes", subtitle = paste0("n=33 FitBit users"), x = "Total Steps", y = "Sedentary Minutes")
+ggplot(data=daily_activity_df, aes(x=TotalSteps, y=SedentaryMinutes)) + geom_point(position=position_jitter()) + stat_smooth(method="lm") + labs(title="Total Steps vs Sedentary Minutes", subtitle = paste0("FitBit 33 users"), x = "Total Steps", y = "Sedentary Minutes")
 ```
 
 What's the relationship between minutes asleep and time in bed? You might expect it to be almost completely linear - are there any unexpected trends?
   
 ```{r}
-ggplot(data=sleepDay_df, aes(x=TotalMinutesAsleep, y=TotalTimeInBed)) + geom_point(position=position_jitter()) + stat_smooth(method="lm") + labs(title="Total Minutes Asleep vs Total Time In Bed", subtitle = paste0("n=24 FitBit users"), x = "Total Minutes Asleep", y = "Total Time In Bed")
+ggplot(data=sleepDay_df, aes(x=TotalMinutesAsleep, y=TotalTimeInBed)) + geom_point(position=position_jitter()) + stat_smooth(method="lm") + labs(title="Total Minutes Asleep vs Total Time In Bed", subtitle = paste0("FitBit 24 users"), x = "Total Minutes Asleep", y = "Total Time In Bed")
 ```
 
 What could these trends tell you about how to help market this product? Or areas where you might want to explore further?
