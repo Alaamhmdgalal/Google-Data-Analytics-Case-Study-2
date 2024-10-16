@@ -1,5 +1,5 @@
 # Google-Data-Analytics-Case-Study-2
-## Google Data Analytics Case Study 2 - How can a wellness technology company play it smart?
+## How can a wellness technology company play it smart?
 
 Sršen asks you to analyze smart device usage data in order to gain insight into how consumers use non-Bellabeat smart devices. She then wants you to select one Bellabeat product to apply these insights to in your presentation. 
 
